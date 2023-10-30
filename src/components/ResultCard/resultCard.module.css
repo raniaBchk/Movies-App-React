@@ -1,0 +1,83 @@
+
+.results {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .results li {
+    list-style: none;
+  }
+  
+  .resultCard {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .resultCard .posterWrapper img,
+  .fillerPoster {
+    width: 130px;
+    height: 150px;
+    background-color: #dbdada;
+    border-radius: 5px;
+    margin-right: 15px;
+    display: block;
+    color: transparent;
+  }
+  
+  .resultCard .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .resultCard .info .title {
+    font-size: 1.25rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .resultCard .info .releaseDate {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--primary);
+    margin: 0;
+  }
+  
+  .resultCard .controls button {
+    margin-right: 10px;
+  }
+
+
+  
+  
+.btn {
+    padding: 10px 15px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    line-height: 1.1;
+  }
+  
+  .btn:hover {
+    background-color: #33fe9c;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .btn:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
