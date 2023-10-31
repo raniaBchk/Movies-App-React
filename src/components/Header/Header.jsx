@@ -25,7 +25,7 @@ const Header = () => {
             <a href='#'></a>
           </li>
           <li>
-          <NavLink className={style.btn} to={'/add'}>Add</NavLink>
+          <NavLink className={style.btn} to={'/'}>Add</NavLink>
             <a href='#' ></a>
           </li>
       </ul>
