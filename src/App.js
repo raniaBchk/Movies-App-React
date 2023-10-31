@@ -41,8 +41,8 @@ function App() {
    
     <Routes>
   
-      <Route path='/' element={ <Header/>} />
-      <Route path='/add' element={ <Add  movies={movies}/>}/>
+     
+      <Route path='/' element={ <Add  movies={movies}/>}/>
       <Route path='/watchlist' element={ <Watchlist/>}/>
       <Route path='/watched' element={ <Watched/>}/>
      
