@@ -37,7 +37,7 @@ function App() {
   return (
     <div>
     <ContextProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/Movies-App-React">
    
     <Routes>
   
