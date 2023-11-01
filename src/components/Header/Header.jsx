@@ -17,11 +17,11 @@ const Header = () => {
       </div>
       <ul className={style.navLinks}>
           <li>
-          <NavLink to={'/watchlist'}>Watch List</NavLink>
+          <NavLink to={'/watchlist'} className={style.navLink} >WatchList</NavLink>
             
           </li>
           <li>
-          <NavLink to={'/watched'}>Watched</NavLink>
+          <NavLink to={'/watched'} className={style.navLink}>Watched</NavLink>
             <a href='#'></a>
           </li>
           <li>
